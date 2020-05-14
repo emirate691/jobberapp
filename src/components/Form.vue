@@ -35,6 +35,52 @@
         </v-col>
       </v-row>
     </div>
+    <div class="container fluid" id="subsection">
+      <v-container fluid>
+        <v-row justify="center">
+          <v-col sm="12" md="6">
+            <v-container fluid>
+              <v-row justify="center">
+                <v-col class="d-flex" cols="12" sm="12" id="form-content-4">
+                  <v-btn
+                    class="ma-6"
+                    color="orange darken-4"
+                    id="form-btn-2"
+                    dark
+                    large
+                  >
+                    SEARCH FILTER</v-btn
+                  >
+                </v-col>
+
+                <v-card max-width="594" class="mx-auto">
+                  <v-list-item color="blue darken-3" id="headline-item"
+                    ><h3 class="para-heading">Government jobs in Abuja</h3>
+                  </v-list-item>
+
+                  <v-card-text>
+                    <p id="first-para">2 Jobs Found</p>
+                  </v-card-text>
+
+                  <v-card-actions>
+                    <v-btn
+                      class="ma-6"
+                      color="orange darken-4"
+                      id="form-btn-2"
+                      dark
+                      large
+                      >CREATE JOB ALERT</v-btn
+                    >
+
+                    <v-spacer></v-spacer>
+                  </v-card-actions>
+                </v-card>
+              </v-row>
+            </v-container>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
   </div>
 </template>
 
@@ -48,6 +94,7 @@ export default {
 <style>
 .form {
   background-color: #1565c0;
+  height: 300px;
 }
 
 .first-heading {
@@ -74,5 +121,34 @@ export default {
 #form-btn {
   background-color: #ff6f00;
   width: 100%;
+}
+#form-btn-2 {
+  background-color: #ff6f00;
+  width: 90%;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 20px;
+}
+.mx-auto {
+  width: 90%;
+  margin-top: 50px;
+  padding-top: 0;
+  margin-left: 20px;
+}
+#subsection {
+  width: 100%;
+}
+#form-content-4 {
+  padding: 0;
+  margin-top: 0;
+}
+#headline-item {
+  background-color: #1565c0;
+}
+.para-heading {
+  color: white;
+}
+#first-para {
+  text-align: center;
 }
 </style>
