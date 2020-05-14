@@ -7,13 +7,17 @@
           <v-container fluid>
             <v-row align="center" class="form-row">
               <v-col class="d-flex" cols="12" sm="8" id="form-content">
-                <v-select :items="items" label="Solo field" solo></v-select>
+                <v-select
+                  :items="items"
+                  label="All Job Function"
+                  solo
+                ></v-select>
               </v-col>
               <v-col class="d-flex" cols="12" sm="8" id="form-content-1">
-                <v-select :items="items" label="Solo field" solo></v-select>
+                <v-select :items="items" label="All industries" solo></v-select>
               </v-col>
               <v-col class="d-flex" cols="12" sm="6" id="form-content-2">
-                <v-select :items="items" label="Solo field" solo> </v-select>
+                <v-select :items="items" label="Location" solo> </v-select>
               </v-col>
               <v-col class="d-flex" cols="12" sm="2" id="form-content-3">
                 <v-btn
