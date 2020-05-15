@@ -69,7 +69,7 @@ export default {
 </script>
 <style>
 .footer {
-  margin-top: 400px;
+  margin-top: 700px;
 }
 .indigo {
   width: 100%;

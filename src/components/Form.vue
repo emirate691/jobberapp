@@ -53,7 +53,7 @@
                   >
                 </v-col>
 
-                <v-card max-width="594" class="mx-auto">
+                <v-card max-width="594" class="mx-auto" height="200">
                   <v-list-item color="blue darken-3" id="headline-item"
                     ><h3 class="para-heading">Government jobs in Abuja</h3>
                   </v-list-item>
@@ -131,7 +131,7 @@ export default {
 }
 .mx-auto {
   width: 90%;
-  margin-top: 50px;
+  margin-top: 20px;
   padding-top: 0;
   margin-left: 20px;
 }
